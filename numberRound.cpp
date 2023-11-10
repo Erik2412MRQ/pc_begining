@@ -27,6 +27,9 @@
             }
             
         }
+        if(number < 10 && tempNumber!=0){
+            totalDivisiones++;
+        }
 
         cout << totalDivisiones <<endl;
         for(int j = TotalCifras - 1; j >= 0; j --){
